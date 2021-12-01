@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Tienda de Suculentas</title>
 </head>
@@ -14,7 +15,7 @@
     <nav class="p-3 navbar navbar-expand-lg shadow">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="/Logos/isologo.png" alt="logo de la tienda"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-list"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -40,6 +41,41 @@
       </nav>
     </header>
 
+<!--Main-Section-->
+
+<main>
+    <div class="container">
+      <div class="row">
+        <div class="col-md p-3">
+          <h1>
+            Explorá el emocionante <br />
+            mundo de las suculentas
+          </h1>
+          <h5>Unite a la mayor comunidad de amantes de las plantas y comenzá a compartir</h5>
+          <div>
+              <a class="btn btn-primary mt-3" href="comunidad.html">Hacete miembro</a>
+          </div>
+        </div>
+        <div class="col-md p-3">
+          <div class="img-fluid animate__animated animate__fadeIn">
+            <lottie-player
+              src="https://assets7.lottiefiles.com/packages/lf20_o6hQ8m.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+              class="hero-img"
+            ></lottie-player>
+          </div>
+        </div>
+      </div>
+    </div>
+</main>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="js/bootstrap.js"></script>
 </body>
 </html>
