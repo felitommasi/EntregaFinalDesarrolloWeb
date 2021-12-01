@@ -1,0 +1,24 @@
+{
+  "name": "tercerentrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felitommasi/tercerEntrega.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felitommasi/tercerEntrega/issues"
+  },
+  "homepage": "https://github.com/felitommasi/tercerEntrega#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.43.5"
+  }
+}
