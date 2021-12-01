@@ -1,4 +1,5 @@
 .navbar{
+    background-color: $secondary;
 
     .navbar-toggler{
         align-self: center;
@@ -10,5 +11,11 @@
     .collapse{
         align-items: center;
     }
+}
 
+footer{
+    .bi{
+        font-size: 1.5rem;
+        color: $primary;
+    }
 }

@@ -11120,6 +11120,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.navbar {
+  background-color: #feefea;
+}
 .navbar .navbar-toggler {
   align-self: center;
   padding: 1rem;
@@ -11130,8 +11133,9 @@ textarea.form-control-lg {
   align-items: center;
 }
 
-body {
-  background-color: #feefea;
+footer .bi {
+  font-size: 1.5rem;
+  color: #22493b;
 }
 
 .hero-img {
@@ -11139,6 +11143,7 @@ body {
 }
 
 body {
+  min-height: 100vh;
   background-color: #feefea;
 }
 
