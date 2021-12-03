@@ -11130,6 +11130,15 @@ textarea.form-control-lg {
   color: #22493b;
   font-size: 2rem;
 }
+.navbar .nav-link:hover {
+  font-weight: 500;
+}
+.navbar .active {
+  font-weight: 500;
+  padding-bottom: 4px 0 4px 0;
+  border-bottom: 2px solid #4d7565;
+  border-top: 2px solid #4d7565;
+}
 
 footer .bi {
   font-size: 1.5rem;
@@ -11177,6 +11186,11 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+.carouselStyle {
+  overflow: hidden;
+  max-height: 600px;
 }
 
 /*# sourceMappingURL=style.css.map */

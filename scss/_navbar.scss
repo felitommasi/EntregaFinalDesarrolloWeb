@@ -10,6 +10,17 @@
         color: $primary;
         font-size: 2rem;
     }
+
+    .nav-link:hover{
+        font-weight: 500;
+    }
+
+    .active{
+        font-weight: 500;
+        padding-bottom: 4px 0 4px 0;
+        border-bottom: 2px solid $primary--light;
+        border-top: 2px solid $primary--light;
+    }
 }
 
 //FOOTER
