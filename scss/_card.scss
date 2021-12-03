@@ -1,0 +1,18 @@
+.card{
+    min-width: 300px;
+    border-radius: 15px;
+    background-color: $secondary;
+
+    .user__img{
+        clip-path: circle(50% at 50% 50%);
+        width: 40px;
+        height: 40px;
+        margin: 0 0.5rem 0 0;
+    }
+
+    .user{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}

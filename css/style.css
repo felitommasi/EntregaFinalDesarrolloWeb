@@ -11122,15 +11122,13 @@ textarea.form-control-lg {
 }
 .navbar {
   background-color: #feefea;
+  padding: 2rem;
 }
 .navbar .navbar-toggler {
   align-self: center;
   padding: 1rem;
   color: #22493b;
-  font-size: 1.5rem;
-}
-.navbar .collapse {
-  align-items: center;
+  font-size: 2rem;
 }
 
 footer .bi {
@@ -11139,12 +11137,46 @@ footer .bi {
 }
 
 .hero-img {
+  min-width: 350px;
   max-width: 500px;
 }
 
+.img-fluid {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+h1, .h1 {
+  font-family: "Alegreya", serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 95%;
+  margin-bottom: 1.5rem;
+}
+
 body {
-  min-height: 100vh;
   background-color: #feefea;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.card {
+  min-width: 300px;
+  border-radius: 15px;
+  background-color: #feefea;
+}
+.card .user__img {
+  clip-path: circle(50% at 50% 50%);
+  width: 40px;
+  height: 40px;
+  margin: 0 0.5rem 0 0;
+}
+.card .user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

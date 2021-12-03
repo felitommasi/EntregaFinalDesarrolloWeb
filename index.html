@@ -6,20 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Tienda de Suculentas</title>
 </head>
 <body>
 <!--Navbar-->
 
 <header class="sticky-top mb-4">
-    <nav class="p-3 navbar navbar-expand-lg shadow">
+    <nav class="navbar navbar-expand-lg shadow">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="/Logos/isologo.png" alt="logo de la tienda"></a>
-          <button class="navbar-toggler btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-list"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mt-4 mb-2 mb-lg-0 text-center">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
               </li>
@@ -47,30 +48,28 @@
     <div class="container">
       <div class="row">
         <div class="col-md p-3">
+            <div class="img-fluid animate__animated animate__fadeIn">
+              <lottie-player
+                src="https://assets7.lottiefiles.com/packages/lf20_o6hQ8m.json"
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+                class="hero-img"
+              ></lottie-player>
+            </div>
+          </div>
+        <div class="col-md p-4">
           <h1>
-            Explorá el emocionante <br />
-            mundo de las suculentas
+            Explorá el emocionante mundo de las suculentas
           </h1>
-          <h5>Unite a la mayor comunidad de amantes de <br> las plantas y comenzá a compartir</h5>
+          <h5>Unite a la mayor comunidad de amantes de las plantas y comenzá a compartir</h5>
           <div>
               <a class="btn btn-primary mt-3" href="comunidad.html">Hacete miembro</a>
           </div>
         </div>
-        <div class="col-md p-3">
-          <div class="img-fluid animate__animated animate__fadeIn">
-            <lottie-player
-              src="https://assets7.lottiefiles.com/packages/lf20_o6hQ8m.json"
-              background="transparent"
-              speed="1"
-              loop
-              autoplay
-              class="hero-img"
-            ></lottie-player>
-          </div>
-        </div>
       </div>
     </div>
-</main>
 
 <!--Form-->
 <div class="form" data-aos="fade-right">
@@ -98,7 +97,8 @@
         </div>
     </form>
     </div>
-    
+</main>
+
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -117,7 +117,7 @@
     
     <!--Footer Section-->
     
-    <footer class="fixed-bottom text-center text-lg-start mt-5 p-3 shadow">
+    <footer class="footer-bottom text-center text-lg-start mt-5 p-3 shadow">
         <nav class="p-3 navbar navbar-expand">
             <p class="small">© 2021 Copyright <br>Felipe Tommasi - Coderhouse</p> 
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
