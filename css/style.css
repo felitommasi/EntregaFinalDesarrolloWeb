@@ -11145,12 +11145,9 @@ footer .bi {
   color: #22493b;
 }
 
-.hero-img {
+.img-fluid {
   min-width: 350px;
   max-width: 500px;
-}
-
-.img-fluid {
   overflow: hidden;
   border-radius: 20px;
 }
@@ -11188,9 +11185,23 @@ main {
   align-items: center;
 }
 
+.card-img-e {
+  border-radius: 15px 15px 0 0;
+}
+
 .carouselStyle {
   overflow: hidden;
   max-height: 600px;
+}
+
+.list-group-item {
+  padding: 1.2rem 1rem;
+}
+.list-group-item .img-glosario {
+  overflow: hidden;
+  max-width: 100px;
+  max-height: 100px;
+  margin: 0 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
