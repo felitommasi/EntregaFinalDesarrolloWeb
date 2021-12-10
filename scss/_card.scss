@@ -10,12 +10,6 @@
         padding: 0.5rem 0 0.8rem 0;
     }
 
-    .btn{
-        padding: 0.8rem 1.2rem;
-        margin: 0 0 0.8rem 0;
-        border-radius: 30px;
-    }
-
     .card-img-top{
         overflow: hidden;
     }
@@ -38,14 +32,23 @@
 .card__tienda{
     @extend .card;
     min-width: 300px;
-    width: 320px;
     max-width: 350px;
 
     .card-img-top{
         border-radius: 15px 15px 0 0;
         overflow: hidden;
-        height: 300px;
-        max-height: 350px;
+        height: 100%;
         width: 100%;
     }
+
+    .btn{
+        text-transform: uppercase;
+        padding: 0.7rem 1.2rem;
+        margin: 0 0 0.8rem 0;
+        border-radius: 30px;
+    }
+}
+
+.cardBodyComunidad{
+    padding: 1.5rem 2rem 3rem 2rem;
 }
