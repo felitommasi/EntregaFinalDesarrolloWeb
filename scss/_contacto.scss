@@ -4,4 +4,12 @@
     .form-controlStyle{
         height: 200px;
     }
+
+    .form-select{
+        background-color: $secondary--light;
+
+        #inputState{
+            background-color: $primary;
+        }
+    }
 }
