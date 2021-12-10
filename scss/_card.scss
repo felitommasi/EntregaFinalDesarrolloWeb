@@ -1,5 +1,4 @@
 .card{
-    min-width: 300px;
     border-radius: 15px;
     background-color: $secondary;
 
@@ -17,10 +16,8 @@
         border-radius: 30px;
     }
 
-    .card-img-e{
-        border-radius: 15px 15px 0 0;
+    .card-img-top{
         overflow: hidden;
-        min-height: 350px;
     }
 
     .user__img{
@@ -38,3 +35,17 @@
 }
 
 
+.card__tienda{
+    @extend .card;
+    min-width: 300px;
+    width: 320px;
+    max-width: 350px;
+
+    .card-img-top{
+        border-radius: 15px 15px 0 0;
+        overflow: hidden;
+        height: 300px;
+        max-height: 350px;
+        width: 100%;
+    }
+}
