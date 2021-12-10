@@ -1,14 +1,11 @@
-.img-fluid{
-    min-width: 350px;
-    max-width: 500px;
-    overflow: hidden;
-    border-radius: 20px;
-}
-
 h1{
     font-family: "Alegreya", serif;
     font-weight: 600;
     font-size: 3rem;
-    line-height: 95%;
+    line-height: 110%;
     margin-bottom: 1.5rem;
+}
+
+.img-fluid{
+    filter: drop-shadow(10 10 10 1rem $secondary--dark);
 }

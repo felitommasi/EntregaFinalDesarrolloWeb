@@ -4,6 +4,13 @@
     background-color: $secondary;
     padding: 2rem;
 
+    .navbar-brand{
+        img {
+            height: auto;
+            width: 100%;
+          }
+    }
+
     .navbar-toggler{
         align-self: center;
         padding: 1rem;
