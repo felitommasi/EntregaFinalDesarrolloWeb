@@ -11151,14 +11151,7 @@ footer .bi {
 }
 
 .container {
-  padding: 0 3rem;
-}
-.container h1, .container .h1 {
-  font-family: "Alegreya", serif;
-  font-weight: 600;
-  font-size: 3rem;
-  line-height: 110%;
-  margin-bottom: 1.5rem;
+  padding: 3rem;
 }
 .container .img-fluid {
   filter: drop-shadow(10px 5px 7px #cbbdb8);
@@ -11170,6 +11163,18 @@ body {
 
 main {
   min-height: 100vh;
+}
+
+h1, .h1 {
+  font-family: "Alegreya", serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 110%;
+  margin-bottom: 1.5rem;
+}
+
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+  padding: 0 3rem;
 }
 
 .card {
