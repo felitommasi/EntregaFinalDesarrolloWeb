@@ -1,5 +1,5 @@
 .contactForm{
-    padding: 0 5rem 0 0;
+    padding: 0;
 
     .form-controlStyle{
         height: 200px;
@@ -7,9 +7,10 @@
 
     .form-select{
         background-color: $secondary--light;
+    }
 
-        #inputState{
-            background-color: $primary;
-        }
+    .img-fluid{
+        overflow: hidden;
+        border-radius: 10rem;
     }
 }

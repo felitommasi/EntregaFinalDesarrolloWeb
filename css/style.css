@@ -11138,14 +11138,14 @@ textarea.form-control-lg {
   align-self: center;
   padding: 1rem;
   color: #22493b;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .navbar .nav-link:hover {
   font-weight: 500;
 }
 .navbar .active {
   font-weight: 500;
-  padding-bottom: 4px 0 4px 0;
+  padding: 4px 0 8px 0;
   border-bottom: 2px solid #4d7565;
   border-top: 2px solid #4d7565;
 }
@@ -11245,7 +11245,7 @@ h1, .h1 {
 }
 
 .contactForm {
-  padding: 0 5rem 0 0;
+  padding: 0;
 }
 .contactForm .form-controlStyle {
   height: 200px;
@@ -11253,8 +11253,9 @@ h1, .h1 {
 .contactForm .form-select {
   background-color: #ffffff;
 }
-.contactForm .form-select #inputState {
-  background-color: #22493b;
+.contactForm .img-fluid {
+  overflow: hidden;
+  border-radius: 10rem;
 }
 
 /*# sourceMappingURL=style.css.map */
