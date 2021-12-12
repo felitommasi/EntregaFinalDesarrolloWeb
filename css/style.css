@@ -11170,14 +11170,6 @@ main {
   min-height: 100vh;
 }
 
-h1, .h1 {
-  font-family: "Alegreya", serif;
-  font-weight: 600;
-  font-size: 3rem;
-  line-height: 110%;
-  margin-bottom: 1.5rem;
-}
-
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
   padding: 0 3rem;
   max-width: 1400px;
@@ -11256,6 +11248,34 @@ h1, .h1 {
 .contactForm .img-fluid {
   overflow: hidden;
   border-radius: 10rem;
+}
+
+h1, .h1 {
+  font-family: "Alegreya", serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 110%;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  h1, .h1 {
+    font-size: 2.5rem;
+  }
+
+  h5, .h5 {
+    font-size: 1rem;
+  }
+
+  .btn-cta {
+    max-width: 130px;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 480px) {
+  h1, .h1 {
+    font-size: 2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

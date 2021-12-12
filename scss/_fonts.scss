@@ -1,0 +1,31 @@
+h1{ 
+    font-family: "Alegreya", serif;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 110%;
+    margin-bottom: 1.5rem;
+}
+
+//media queries - tamaño fuente h1//
+
+@media (max-width: 768px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    
+    h5{
+        font-size: 1rem;
+    }
+
+    .btn-cta{
+        max-width: 130px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1{
+        font-size: 2rem;
+    }
+}
+
