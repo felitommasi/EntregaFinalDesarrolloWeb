@@ -11177,11 +11177,6 @@ main {
   min-height: 100vh;
 }
 
-.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-  padding: 2rem;
-  max-width: 1400px;
-}
-
 .card, .card__tienda {
   border-radius: 15px;
   background-color: #feefea;
@@ -11295,9 +11290,24 @@ h1, .h1 {
     line-height: 150%;
   }
 }
-@media (max-width: 481px) {
-  h1, .h1 {
-    font-size: 2rem;
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+  padding: 2rem;
+  max-width: 1400px;
+}
+
+@media (max-width: 576px) {
+  .form {
+    padding: 0 1rem;
+  }
+  .form .containerForm {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form .containerForm .row {
+    margin: 0;
+    justify-content: center;
   }
 }
 

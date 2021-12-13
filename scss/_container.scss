@@ -1,0 +1,24 @@
+.container-fluid{    
+    padding: 2rem;
+    max-width: 1400px;
+}
+
+//contact form//
+
+@media (max-width: 576px){
+    .form{
+        padding: 0 1rem;
+
+        .containerForm{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .row{
+                margin: 0;
+                justify-content: center;
+            }
+        }
+    }
+}

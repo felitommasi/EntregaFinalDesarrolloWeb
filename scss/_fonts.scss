@@ -6,7 +6,7 @@ h1{
     margin-bottom: 1.5rem;
 }
 
-//media queries - tamaño fuente h1//
+//media queries - tamaño fuente h1 y h5//
 
 @media (max-width: 768px) {
     h1{
@@ -18,10 +18,3 @@ h1{
         line-height: 150%;
     }
 }
-
-@media (max-width: 481px) {
-    h1{
-        font-size: 2rem;
-    }
-}
-
