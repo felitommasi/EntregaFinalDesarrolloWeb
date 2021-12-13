@@ -2,3 +2,12 @@
     overflow: hidden;
     max-height: 80vh;
 }
+
+//buttons display//
+
+@media (max-width: 768px){
+    .carousel-indicators,
+    .carouselButton{
+        display: none;
+    }
+}

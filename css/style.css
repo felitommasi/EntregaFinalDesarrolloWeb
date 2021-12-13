@@ -11233,6 +11233,12 @@ main {
   max-height: 80vh;
 }
 
+@media (max-width: 768px) {
+  .carousel-indicators,
+.carouselButton {
+    display: none;
+  }
+}
 .list-group {
   padding: 0;
   margin: 0;
