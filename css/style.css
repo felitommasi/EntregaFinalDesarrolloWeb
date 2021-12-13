@@ -11128,7 +11128,6 @@ textarea.form-control-lg {
 }
 .navbar {
   background-color: #feefea;
-  padding: 2rem;
 }
 .navbar .navbar-brand img {
   height: auto;
@@ -11136,7 +11135,7 @@ textarea.form-control-lg {
 }
 .navbar .navbar-toggler {
   align-self: center;
-  padding: 1rem;
+  padding: 0.5rem;
   color: #22493b;
   font-size: 1.8rem;
 }
@@ -11162,6 +11161,14 @@ footer .bi {
   filter: drop-shadow(10px 5px 7px #cbbdb8);
 }
 
+@media (max-width: 990px) {
+  .containerMain {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+}
 body {
   background-color: #feefea;
 }
@@ -11171,7 +11178,7 @@ main {
 }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-  padding: 0 3rem;
+  padding: 2rem;
   max-width: 1400px;
 }
 
@@ -11226,16 +11233,30 @@ main {
   max-height: 80vh;
 }
 
-.list-group-item {
+.list-group {
+  padding: 0;
+  margin: 0;
+}
+.list-group .list-group-item {
   padding: 2rem 1rem;
+  margin-bottom: 2rem;
   border: 2px solid #4d7565;
 }
-.list-group-item .img-glosario {
+.list-group .list-group-item .img-glosario {
   max-width: 100px;
   max-height: 100px;
-  margin: 0 1rem;
+  padding-right: 1rem;
 }
 
+@media (max-width: 768px) {
+  .list-group-item {
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .list-group-item .img-glosario {
+    padding-bottom: 1rem;
+  }
+}
 .contactForm {
   padding: 0;
 }
@@ -11264,15 +11285,11 @@ h1, .h1 {
   }
 
   h5, .h5 {
-    font-size: 1rem;
-  }
-
-  .btn-cta {
-    max-width: 130px;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
+    line-height: 150%;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 481px) {
   h1, .h1 {
     font-size: 2rem;
   }

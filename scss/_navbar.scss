@@ -2,18 +2,17 @@
 
 .navbar{
     background-color: $secondary;
-    padding: 2rem;
 
     .navbar-brand{
         img {
             height: auto;
             width: 100%;
-          }
+        }
     }
 
     .navbar-toggler{
         align-self: center;
-        padding: 1rem;
+        padding: 0.5rem;
         color: $primary;
         font-size: 1.8rem;
     }

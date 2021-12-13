@@ -5,3 +5,14 @@
         filter: drop-shadow(10px 5px 7px $secondary--dark);
     }
 }
+
+//main container align center//
+
+@media (max-width: 990px) {
+    .containerMain{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+}
