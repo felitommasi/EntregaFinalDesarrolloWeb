@@ -11234,6 +11234,12 @@ main {
     display: none;
   }
 }
+.rowGlosario {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
 .list-group {
   padding: 0;
   margin: 0;
@@ -11253,6 +11259,11 @@ main {
 }
 
 @media (max-width: 768px) {
+  .rowGlosario {
+    flex-direction: column;
+    align-content: flex-start;
+  }
+
   .container {
     padding: 0 1rem;
   }
