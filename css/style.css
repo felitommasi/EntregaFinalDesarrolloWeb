@@ -11248,13 +11248,19 @@ main {
   max-height: 100px;
   padding-right: 1rem;
 }
+.list-group .list-group-item p {
+  padding: 0 1rem 0 0;
+}
 
 @media (max-width: 768px) {
-  .list-group-item {
+  .container {
+    padding: 0 1rem;
+  }
+  .container .list-group-item {
     flex-wrap: wrap;
     align-content: center;
   }
-  .list-group-item .img-glosario {
+  .container .list-group-item .img-glosario {
     padding-bottom: 1rem;
   }
 }

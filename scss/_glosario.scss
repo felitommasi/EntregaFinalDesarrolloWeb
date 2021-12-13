@@ -12,18 +12,26 @@
             max-height: 100px;
             padding-right: 1rem;
         }
+
+        p{
+            padding: 0 1rem 0 0;
+        }
     }
 }
 
 //media responsive//
 
 @media (max-width: 768px){
-    .list-group-item{
-        flex-wrap: wrap;
-        align-content: center;
+    .container{
+        padding: 0 1rem;
 
-        .img-glosario{
-            padding-bottom: 1rem;
+        .list-group-item{
+            flex-wrap: wrap;
+            align-content: center;
+
+            .img-glosario{
+                padding-bottom: 1rem;
+            }
         }
     }
 }
