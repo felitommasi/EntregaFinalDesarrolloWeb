@@ -4,8 +4,8 @@
     background-color: $secondary;
 
     .navbar-brand{
-        img {
-            height: auto;
+        .nav-logo {
+            height: 50px;
             width: 100%;
         }
     }

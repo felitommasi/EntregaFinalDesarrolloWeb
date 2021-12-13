@@ -11129,8 +11129,8 @@ textarea.form-control-lg {
 .navbar {
   background-color: #feefea;
 }
-.navbar .navbar-brand img {
-  height: auto;
+.navbar .navbar-brand .nav-logo {
+  height: 50px;
   width: 100%;
 }
 .navbar .navbar-toggler {
