@@ -34,9 +34,14 @@
     min-width: 300px;
     max-width: 350px;
 
+    .cardHeader{
+        height: 348px;
+        width: auto;
+        overflow: hidden;
+    }
+
     .card-img-top{
         border-radius: 15px 15px 0 0;
-        overflow: hidden;
         height: 100%;
         width: 100%;
     }
