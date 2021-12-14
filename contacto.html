@@ -1,127 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="tienda, suculentas, comunidad, contacto, informacion">
-    <meta name="description" content="Ponete en contacto con nosotros">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Tienda de Suculentas | Contacto</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="tienda, suculentas, comunidad, contacto, informacion">
+  <meta name="description" content="Ponete en contacto con nosotros">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Tienda de Suculentas | Contacto</title>
 </head>
+
 <body>
-    <!--Navbar-->
-    <header class="sticky-top mb-5">
-        <nav class="p-1 navbar navbar-expand-lg shadow">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html"><img class="nav-logo" src="./Logos/logo-suculentas-01.svg" alt="logo"></a>
-              <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="bi bi-list"></i>
-              </button>
-              <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="comunidad.html">Comunidad</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="glosario.html">Glosario</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Contacto</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="tienda.html">Tienda</a>
-                  </li>
-                </ul>
+  <!--Navbar-->
+  <header class="sticky-top mb-5">
+    <nav class="p-1 navbar navbar-expand-lg shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img class="nav-logo" src="./Logos/logo-suculentas-01.svg"
+            alt="logo"></a>
+        <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comunidad.html">Comunidad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="glosario.html">Glosario</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tienda.html">Tienda</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--Main-Section-->
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-none d-lg-block">
+          <img class="img-fluid pr-4" src="./imagenes/cover-contacto.png" alt="mujer sosteniendo planta">
+        </div>
+        <div class="col-12 col-lg-6 col-xl-6 p-4">
+          <h1>Ponete en contacto</h1>
+          <form class="row g-3 contactForm">
+            <div class="col-12 col-md-6">
+              <label for="inputEmail4" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="inputPassword4" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="inputAddress" placeholder="ejemplo@gmail.com">
+            </div>
+            <div class="col-12">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <div class="form-floating">
+                <textarea class="form-control form-controlStyle" placeholder="Escribí tu mensaje acá..."
+                  id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Escribí tu mensaje acá...</label>
               </div>
             </div>
-          </nav>
-        </header>
-
-<!--Main-Section-->
-
-<main>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 d-none d-lg-block">
-        <img class="img-fluid pr-4" src="./imagenes/cover-contacto.png" alt="mujer sosteniendo planta">
-      </div>
-      <div class="col-12 col-lg-6 col-xl-6 p-4">
-        <h1>Ponete en contacto</h1>
-        <form class="row g-3 contactForm">
-          <div class="col-12 col-md-6">
-            <label for="inputEmail4" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="inputEmail4">
-          </div>
-          <div class="col-12 col-md-6">
-            <label for="inputPassword4" class="form-label">Apellido</label>
-            <input type="text" class="form-control" id="inputPassword4">
-          </div>
-          <div class="col-12">
-            <label for="inputAddress" class="form-label">E-mail</label>
-            <input type="email" class="form-control" id="inputAddress" placeholder="ejemplo@gmail.com">
-          </div>
-          <div class="col-12">
-            <label for="mensaje" class="form-label">Mensaje</label>
-            <div class="form-floating">
-              <textarea class="form-control form-controlStyle" placeholder="Escribí tu mensaje acá..." id="floatingTextarea"></textarea>
-              <label for="floatingTextarea">Escribí tu mensaje acá...</label>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">País</label>
+              <input type="text" class="form-control" id="inputCity">
             </div>
-          </div>
-          <div class="col-md-6">
-            <label for="inputCity" class="form-label">País</label>
-            <input type="text" class="form-control" id="inputCity">
-          </div>
-          <div class="col-md-6">
-            <label for="inputState" class="form-label">Localidad</label>
-            <select id="inputState" class="form-select">
-              <option selected>Elegí tu localidad</option>
-              <option>...</option>
-            </select>
-          </div>
-          <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck">
-              <label class="form-check-label" for="gridCheck">
-                Deseo que me contacten
-              </label>
+            <div class="col-md-6">
+              <label for="inputState" class="form-label">Localidad</label>
+              <select id="inputState" class="form-select">
+                <option selected>Elegí tu localidad</option>
+                <option>...</option>
+              </select>
             </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary mt-4">Enviar</button>
-          </div>
-        </form>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Deseo que me contacten
+                </label>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary mt-4">Enviar</button>
+              </div>
+          </form>
+        </div>
       </div>
     </div>
-    </div>  
-</main>
+  </main>
 
-    <!--Footer Section-->
-    
-    <footer class="footer-bottom text-lg-start mt-5 p-4 shadow">
-      <nav class="p-3 navbar navbar-expand">
-          <p class="small">© 2021 Copyright <br><strong>Felipe Tommasi - Coderhouse</strong></p> 
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                  <a class="nav-link" href="https://www.behance.net/felipetommasi95" target=”_blank”><i class="bi bi-behance"></i></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="https://github.com/felitommasi" target=”_blank”><i class="bi bi-github"></i></a>   
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="https://www.linkedin.com/in/felipetommasi/" target=”_blank”><i class="bi bi-linkedin"></i></i></a>
-              </li>
-          </ul>
-      </nav>
+  <!--Footer Section-->
+
+  <footer class="footer-bottom text-lg-start mt-5 p-4 shadow">
+    <nav class="p-3 navbar navbar-expand">
+      <p class="small">© 2021 Copyright <br><strong>Felipe Tommasi - Coderhouse</strong></p>
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.behance.net/felipetommasi95" target=”_blank”><i
+              class="bi bi-behance"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/felitommasi" target=”_blank”><i class="bi bi-github"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/felipetommasi/" target=”_blank”><i
+              class="bi bi-linkedin"></i></i></a>
+        </li>
+      </ul>
+    </nav>
   </footer>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
+
+  <!--scripts-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
     AOS.init();
-</script>
-<script src="js/bootstrap.js"></script>    
-  </body>
-  </html>
+  </script>
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

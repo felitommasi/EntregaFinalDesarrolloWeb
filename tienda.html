@@ -1,167 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="tienda, suculentas, ecommerce, plantas, venta, catalogo">
-    <meta name="description" content="Explorá nuestro catalogo de suculentas online">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Tienda de Suculentas | Tienda</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="tienda, suculentas, ecommerce, plantas, venta, catalogo">
+  <meta name="description" content="Explorá nuestro catalogo de suculentas online">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Tienda de Suculentas | Tienda</title>
 </head>
+
 <body>
-    <!--Navbar-->
-    <header class="sticky-top mb-5">
-      <nav class="p-1 navbar navbar-expand-lg shadow">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img class="nav-logo" src="./Logos/logo-suculentas-01.svg" alt="logo"></a>
-            <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="bi bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="comunidad.html">Comunidad</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="glosario.html">Glosario</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Tienda</a>
-                </li>
-              </ul>
+  <!--Navbar-->
+  <header class="sticky-top mb-5">
+    <nav class="p-1 navbar navbar-expand-lg shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img class="nav-logo" src="./Logos/logo-suculentas-01.svg"
+            alt="logo"></a>
+        <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comunidad.html">Comunidad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="glosario.html">Glosario</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Tienda</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--Main-section-->
+  <main>
+    <div class="container-fluid mb-5">
+      <h1 class="text-center mt-5 mb-5">Explorá nuestro catálogo online</h1>
+      <div class="row row-cols-md-2 row-cols-lg-3 row-cols-xxl-4">
+        <div class="col pb-4 d-flex justify-content-center">
+          <div class="card card__tienda shadow">
+            <img src="./imagenes/producto1.png" class="card-img-top" alt="Echeveria elegans">
+            <div class="card-body text-center">
+              <h4 class="card-title fw-bold">Echeveria Elegans</h4>
+              <h5>$100</h5>
+              <p class="card-text card-textStyle">This is a longer card with supporting text below as a natural lead-in
+                to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
             </div>
           </div>
-        </nav>
-      </header>
+        </div>
+        <div class="col pb-4 d-flex justify-content-center">
+          <div class="card card__tienda shadow">
+            <img src="./imagenes/producto4.png" class="card-img-top" alt="Graptopetalum">
+            <div class="card-body text-center">
+              <h4 class="card-title fw-bold">Graptopetalum</h4>
+              <h5>$100</h5>
+              <p class="card-text card-textStyle">This is a longer card with supporting text below as a natural lead-in
+                to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-primary disabled">Agotado</a>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4 d-flex justify-content-center">
+          <div class="card card__tienda shadow">
+            <img src="./imagenes/producto8.png" class="card-img-top" alt="Haworthia">
+            <div class="card-body text-center">
+              <h4 class="card-title fw-bold">Hawortia</h4>
+              <h5>$100</h5>
+              <p class="card-text card-textStyle">This is a longer card with supporting text below as a natural lead-in
+                to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4 d-flex justify-content-center">
+          <div class="card card__tienda shadow">
+            <img src="./imagenes/producto9.png" class="card-img-top" alt="Haworthia cooper">
+            <div class="card-body text-center">
+              <h4 class="card-title fw-bold">Hawortia Cooper</h4>
+              <h5>$100</h5>
+              <p class="card-text card-textStyle">This is a longer card with supporting text below as a natural lead-in
+                to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4 d-flex justify-content-center">
+          <div class="card card__tienda shadow">
+            <img src="./imagenes/producto6.png" class="card-img-top" alt="kalanchoe">
+            <div class="card-body text-center">
+              <h4 class="card-title fw-bold">Kalanchoe</h4>
+              <h5>$100</h5>
+              <p class="card-text card-textStyle">This is a longer card with supporting text below as a natural lead-in
+                to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4 d-flex justify-content-center">
+          <div class="card card__tienda shadow">
+            <img src="./imagenes/producto7.png" class="card-img-top" alt="Senecio">
+            <div class="card-body text-center">
+              <h4 class="card-title fw-bold">Senecio</h4>
+              <h5>$100</h5>
+              <p class="card-text card-textStyle">This is a longer card with supporting text below as a natural lead-in
+                to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4 d-flex justify-content-center">
+          <div class="card card__tienda shadow">
+            <img src="./imagenes/producto10.png" class="card-img-top" alt="Aeonium">
+            <div class="card-body text-center">
+              <h4 class="card-title fw-bold">Aeonium</h4>
+              <h5>$100</h5>
+              <p class="card-text card-textStyle">This is a longer card with supporting text below as a natural lead-in
+                to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-4 d-flex justify-content-center">
+          <div class="card card__tienda shadow">
+            <img src="./imagenes/producto11.png" class="card-img-top" alt="Aeonium kiwi">
+            <div class="card-body text-center">
+              <h4 class="card-title fw-bold">Aeonium Kiwi</h4>
+              <h5>$100</h5>
+              <p class="card-text card-textStyle">This is a longer card with supporting text below as a natural lead-in
+                to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-primary disabled">Agotado</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 
-<!--Main-section-->
-<main> 
-<div class="container-fluid mb-5">
-<h1 class="text-center mt-5 mb-5">Explorá nuestro catálogo online</h1>
-<div class="row row-cols-md-2 row-cols-lg-3 row-cols-xxl-4">
-    <div class="col pb-4 d-flex justify-content-center">
-      <div class="card card__tienda shadow">
-        <img src="./imagenes/producto1.png" class="card-img-top" alt="Echeveria elegans">
-        <div class="card-body text-center">
-          <h4 class="card-title fw-bold">Echeveria Elegans</h4>
-          <h5>$100</h5>
-          <p class="card-text card-textStyle">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
-        </div>
-      </div>
-    </div>
-    <div class="col pb-4 d-flex justify-content-center">
-      <div class="card card__tienda shadow">
-        <img src="./imagenes/producto4.png" class="card-img-top" alt="Graptopetalum">
-        <div class="card-body text-center">
-          <h4 class="card-title fw-bold">Graptopetalum</h4>
-          <h5>$100</h5>
-          <p class="card-text card-textStyle">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <a href="#" class="btn btn-primary disabled">Agotado</a>
-        </div>
-      </div>
-    </div>
-    <div class="col pb-4 d-flex justify-content-center">
-      <div class="card card__tienda shadow">
-        <img src="./imagenes/producto8.png" class="card-img-top" alt="Haworthia">
-        <div class="card-body text-center">
-          <h4 class="card-title fw-bold">Hawortia</h4>
-          <h5>$100</h5>
-          <p class="card-text card-textStyle">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
-        </div>
-      </div>
-    </div>
-    <div class="col pb-4 d-flex justify-content-center">
-      <div class="card card__tienda shadow">
-        <img src="./imagenes/producto9.png" class="card-img-top" alt="Haworthia cooper">
-        <div class="card-body text-center">
-          <h4 class="card-title fw-bold">Hawortia Cooper</h4>
-          <h5>$100</h5>
-          <p class="card-text card-textStyle">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
-        </div>
-      </div>
-    </div>
-    <div class="col pb-4 d-flex justify-content-center">
-      <div class="card card__tienda shadow">
-        <img src="./imagenes/producto6.png" class="card-img-top" alt="kalanchoe">
-        <div class="card-body text-center">
-          <h4 class="card-title fw-bold">Kalanchoe</h4>
-          <h5>$100</h5>
-          <p class="card-text card-textStyle">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
-        </div>
-      </div>
-    </div>
-    <div class="col pb-4 d-flex justify-content-center">
-      <div class="card card__tienda shadow">
-        <img src="./imagenes/producto7.png" class="card-img-top" alt="Senecio">
-        <div class="card-body text-center">
-          <h4 class="card-title fw-bold">Senecio</h4>
-          <h5>$100</h5>
-          <p class="card-text card-textStyle">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
-        </div>
-      </div>
-    </div>
-    <div class="col pb-4 d-flex justify-content-center">
-      <div class="card card__tienda shadow">
-        <img src="./imagenes/producto10.png" class="card-img-top" alt="Aeonium">
-        <div class="card-body text-center">
-          <h4 class="card-title fw-bold">Aeonium</h4>
-          <h5>$100</h5>
-          <p class="card-text card-textStyle">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
-        </div>
-      </div>
-    </div>
-    <div class="col pb-4 d-flex justify-content-center">
-      <div class="card card__tienda shadow">
-        <img src="./imagenes/producto11.png" class="card-img-top" alt="Aeonium kiwi">
-        <div class="card-body text-center">
-          <h4 class="card-title fw-bold">Aeonium Kiwi</h4>
-          <h5>$100</h5>
-          <p class="card-text card-textStyle">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <a href="#" class="btn btn-primary disabled">Agotado</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</main> 
+  <!--Footer Section-->
 
-    <!--Footer Section-->
-    
-    <footer class="footer-bottom text-lg-start mt-5 p-4 shadow">
-      <nav class="p-3 navbar navbar-expand">
-          <p class="small">© 2021 Copyright <br><strong>Felipe Tommasi - Coderhouse</strong></p> 
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                  <a class="nav-link" href="https://www.behance.net/felipetommasi95" target=”_blank”><i class="bi bi-behance"></i></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="https://github.com/felitommasi" target=”_blank”><i class="bi bi-github"></i></a>   
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="https://www.linkedin.com/in/felipetommasi/" target=”_blank”><i class="bi bi-linkedin"></i></i></a>
-              </li>
-          </ul>
-      </nav>
+  <footer class="footer-bottom text-lg-start mt-5 p-4 shadow">
+    <nav class="p-3 navbar navbar-expand">
+      <p class="small">© 2021 Copyright <br><strong>Felipe Tommasi - Coderhouse</strong></p>
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.behance.net/felipetommasi95" target=”_blank”><i
+              class="bi bi-behance"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/felitommasi" target=”_blank”><i class="bi bi-github"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/felipetommasi/" target=”_blank”><i
+              class="bi bi-linkedin"></i></i></a>
+        </li>
+      </ul>
+    </nav>
   </footer>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
+
+  <!--scripts-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
     AOS.init();
-</script>
-<script src="js/bootstrap.js"></script>     
-  </body>
-  </html>
+  </script>
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
