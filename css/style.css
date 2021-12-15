@@ -11204,6 +11204,7 @@ main {
 
 .card__tienda {
   min-width: 300px;
+  width: 320px;
   max-width: 350px;
 }
 .card__tienda .cardHeader {
@@ -11211,7 +11212,7 @@ main {
   width: auto;
   overflow: hidden;
 }
-.card__tienda .card-img-top {
+.card__tienda .cardHeader .card-img-top {
   border-radius: 15px 15px 0 0;
   height: 100%;
   width: 100%;
