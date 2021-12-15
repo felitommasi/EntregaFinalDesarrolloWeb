@@ -4407,7 +4407,7 @@ textarea.form-control-lg {
   color: #fff;
 }
 
-.card, .card__tienda {
+.card, .col__tienda .card__tienda {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -4418,27 +4418,27 @@ textarea.form-control-lg {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
-.card > hr, .card__tienda > hr {
+.card > hr, .col__tienda .card__tienda > hr {
   margin-right: 0;
   margin-left: 0;
 }
-.card > .list-group, .card__tienda > .list-group {
+.card > .list-group, .col__tienda .card__tienda > .list-group {
   border-top: inherit;
   border-bottom: inherit;
 }
-.card > .list-group:first-child, .card__tienda > .list-group:first-child {
+.card > .list-group:first-child, .col__tienda .card__tienda > .list-group:first-child {
   border-top-width: 0;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
 }
-.card > .list-group:last-child, .card__tienda > .list-group:last-child {
+.card > .list-group:last-child, .col__tienda .card__tienda > .list-group:last-child {
   border-bottom-width: 0;
   border-bottom-right-radius: calc(0.25rem - 1px);
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
-.card > .card-header + .list-group, .card__tienda > .card-header + .list-group,
+.card > .card-header + .list-group, .col__tienda .card__tienda > .card-header + .list-group,
 .card > .list-group + .card-footer,
-.card__tienda > .list-group + .card-footer {
+.col__tienda .card__tienda > .list-group + .card-footer {
   border-top: 0;
 }
 
@@ -4523,7 +4523,7 @@ textarea.form-control-lg {
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
 
-.card-group > .card, .card-group > .card__tienda {
+.card-group > .card, .col__tienda .card-group > .card__tienda {
   margin-bottom: 0.75rem;
 }
 @media (min-width: 576px) {
@@ -4531,40 +4531,40 @@ textarea.form-control-lg {
     display: flex;
     flex-flow: row wrap;
   }
-  .card-group > .card, .card-group > .card__tienda {
+  .card-group > .card, .col__tienda .card-group > .card__tienda {
     flex: 1 0 0%;
     margin-bottom: 0;
   }
-  .card-group > .card + .card, .card-group > .card__tienda + .card, .card-group > .card + .card__tienda, .card-group > .card__tienda + .card__tienda {
+  .card-group > .card + .card, .col__tienda .card-group > .card__tienda + .card, .col__tienda .card-group > .card + .card__tienda, .col__tienda .card-group > .card__tienda + .card__tienda {
     margin-left: 0;
     border-left: 0;
   }
-  .card-group > .card:not(:last-child), .card-group > .card__tienda:not(:last-child) {
+  .card-group > .card:not(:last-child), .col__tienda .card-group > .card__tienda:not(:last-child) {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
-  .card-group > .card:not(:last-child) .card-img-top, .card-group > .card__tienda:not(:last-child) .card-img-top,
+  .card-group > .card:not(:last-child) .card-img-top, .col__tienda .card-group > .card__tienda:not(:last-child) .card-img-top,
 .card-group > .card:not(:last-child) .card-header,
-.card-group > .card__tienda:not(:last-child) .card-header {
+.col__tienda .card-group > .card__tienda:not(:last-child) .card-header {
     border-top-right-radius: 0;
   }
-  .card-group > .card:not(:last-child) .card-img-bottom, .card-group > .card__tienda:not(:last-child) .card-img-bottom,
+  .card-group > .card:not(:last-child) .card-img-bottom, .col__tienda .card-group > .card__tienda:not(:last-child) .card-img-bottom,
 .card-group > .card:not(:last-child) .card-footer,
-.card-group > .card__tienda:not(:last-child) .card-footer {
+.col__tienda .card-group > .card__tienda:not(:last-child) .card-footer {
     border-bottom-right-radius: 0;
   }
-  .card-group > .card:not(:first-child), .card-group > .card__tienda:not(:first-child) {
+  .card-group > .card:not(:first-child), .col__tienda .card-group > .card__tienda:not(:first-child) {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
-  .card-group > .card:not(:first-child) .card-img-top, .card-group > .card__tienda:not(:first-child) .card-img-top,
+  .card-group > .card:not(:first-child) .card-img-top, .col__tienda .card-group > .card__tienda:not(:first-child) .card-img-top,
 .card-group > .card:not(:first-child) .card-header,
-.card-group > .card__tienda:not(:first-child) .card-header {
+.col__tienda .card-group > .card__tienda:not(:first-child) .card-header {
     border-top-left-radius: 0;
   }
-  .card-group > .card:not(:first-child) .card-img-bottom, .card-group > .card__tienda:not(:first-child) .card-img-bottom,
+  .card-group > .card:not(:first-child) .card-img-bottom, .col__tienda .card-group > .card__tienda:not(:first-child) .card-img-bottom,
 .card-group > .card:not(:first-child) .card-footer,
-.card-group > .card__tienda:not(:first-child) .card-footer {
+.col__tienda .card-group > .card__tienda:not(:first-child) .card-footer {
     border-bottom-left-radius: 0;
   }
 }
@@ -11177,7 +11177,7 @@ main {
   min-height: 100vh;
 }
 
-.card, .card__tienda {
+.card, .col__tienda .card__tienda {
   border-radius: 15px;
   background-color: #feefea;
 }
@@ -11187,37 +11187,40 @@ main {
 .card-textStyle {
   padding: 0.5rem 0 0.8rem 0;
 }
-.card .card-img-top, .card__tienda .card-img-top {
+.card .card-img-top, .col__tienda .card__tienda .card-img-top {
   overflow: hidden;
 }
-.card .user__img, .card__tienda .user__img {
+.card .user__img, .col__tienda .card__tienda .user__img {
   clip-path: circle(50% at 50% 50%);
   width: 40px;
   height: 40px;
   margin: 0 0.5rem 0 0;
 }
-.card .user, .card__tienda .user {
+.card .user, .col__tienda .card__tienda .user {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.card__tienda {
+.col__tienda {
+  max-width: 350px;
+}
+.col__tienda .card__tienda {
   min-width: 300px;
   width: 320px;
   max-width: 350px;
 }
-.card__tienda .cardHeader {
+.col__tienda .card__tienda .cardHeader {
   height: 348px;
   width: auto;
   overflow: hidden;
 }
-.card__tienda .cardHeader .card-img-top {
+.col__tienda .card__tienda .cardHeader .card-img-top {
   border-radius: 15px 15px 0 0;
   height: 100%;
   width: 100%;
 }
-.card__tienda .btn {
+.col__tienda .card__tienda .btn {
   text-transform: uppercase;
   padding: 0.7rem 1.2rem;
   margin: 0 0 0.8rem 0;

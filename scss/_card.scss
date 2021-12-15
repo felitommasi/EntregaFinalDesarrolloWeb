@@ -1,60 +1,63 @@
-.card{
-    border-radius: 15px;
-    background-color: $secondary;
+.card {
+	border-radius: 15px;
+	background-color: $secondary;
 
-    &-body{
-        padding: 1rem 2.5rem 1.5rem 2.5rem;
-    }
+	&-body {
+		padding: 1rem 2.5rem 1.5rem 2.5rem;
+	}
 
-    &-textStyle{
-        padding: 0.5rem 0 0.8rem 0;
-    }
+	&-textStyle {
+		padding: 0.5rem 0 0.8rem 0;
+	}
 
-    .card-img-top{
-        overflow: hidden;
-    }
+	.card-img-top {
+		overflow: hidden;
+	}
 
-    .user__img{
-        clip-path: circle(50% at 50% 50%);
-        width: 40px;
-        height: 40px;
-        margin: 0 0.5rem 0 0;
-    }
+	.user__img {
+		clip-path: circle(50% at 50% 50%);
+		width: 40px;
+		height: 40px;
+		margin: 0 0.5rem 0 0;
+	}
 
-    .user{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
+	.user {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
 }
 
+.col__tienda {
+	max-width: 350px;
 
-.card__tienda{
-    @extend .card;
-    min-width: 300px;
-    width: 320px;
-    max-width: 350px;
+	.card__tienda {
+		@extend .card;
+		min-width: 300px;
+		width: 320px;
+		max-width: 350px;
 
-    .cardHeader{
-        height: 348px;
-        width: auto;
-        overflow: hidden;
+		.cardHeader {
+			height: 348px;
+			width: auto;
+			overflow: hidden;
 
-        .card-img-top{
-            border-radius: 15px 15px 0 0;
-            height: 100%;
-            width: 100%;
-        }
-    }
+			.card-img-top {
+				border-radius: 15px 15px 0 0;
+				height: 100%;
+				width: 100%;
+			}
+		}
 
-    .btn{
-        text-transform: uppercase;
-        padding: 0.7rem 1.2rem;
-        margin: 0 0 0.8rem 0;
-        border-radius: 30px;
-    }
+		.btn {
+			text-transform: uppercase;
+			padding: 0.7rem 1.2rem;
+			margin: 0 0 0.8rem 0;
+			border-radius: 30px;
+		}
+	}
 }
 
-.cardBodyComunidad{
-    padding: 1.5rem 2rem 3rem 2rem;
+.cardBodyComunidad {
+	padding: 1.5rem 2rem 3rem 2rem;
 }
